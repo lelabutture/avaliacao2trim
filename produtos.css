@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 30px 0;
+    color: #333;
+    background-image: url("/tmp/guest-leuaws/Downloads/2trim-avaliacao-frontend-main/background.webp");
+}
+
+header {
+    background-color: #6cb865;
+    color: white;
+    text-align: center;
+    padding: 10px ;
+    background-image: url("/tmp/guest-leuaws/Downloads/2trim-avaliacao-frontend-main/background.webp");
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+
+produtos {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 20px;
+}
+
+.produtos li {
+    flex: 1;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow:2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.produtos h2 {
+    color: #6cb865;
+    margin-bottom: 10px;
+}
+
+.produtos img {
+    max-width: 100px;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+.preco {
+
+    font-weight: bold;
+    color: #e5564d;
+    font-size: 20;
+    margin-top: 10px;
+}
+
+p {
+    line-height: 10px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
